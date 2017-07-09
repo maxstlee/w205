@@ -22,5 +22,5 @@ CREATE TABLE measureCompact As
 
 DROP TABLE surveyScore;
 CREATE TABLE surveyScore As
-	SELECT hospital_name, hcahps_base_score
+	SELECT hospital_name, CAST(hcahps_base_score AS FLOAT), CAST(hcahps_consistency_score AS FLOAT)
 	FROM surveys_responses;
