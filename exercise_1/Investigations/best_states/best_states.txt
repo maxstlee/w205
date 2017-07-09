@@ -1,1 +1,23 @@
+To determine best state, we decided an average aggregate of the overall
+rating from the restructured hospital general information would be a good
+indicator.  While it is true that there is a significant amount of more
+granular information available in the procedures finals, we believe that 
+incorporating the range of procedures introduces too much variability under 
+which a generic state-wide comparision cannot be effectively used.  We
+also noted that some of the survey data did not fully cover all the hospitals.
+Even though we removed entries that did not have the scoring available, we believe
+this is a clean, generic method without introducing too much specificity.
 
+
+ state   avg_rating
+ --------------------------
+ SD      3.857142857142857
+ DE      3.6666666666666665
+ WI      3.611111111111111
+ MN      3.5316455696202533
+ ID      3.526315789473684
+ IN      3.4814814814814814
+ NH      3.48
+ CO      3.450980392156863
+ UT      3.4482758620689653
+ ME      3.4375
