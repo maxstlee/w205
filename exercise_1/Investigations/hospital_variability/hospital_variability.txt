@@ -1,1 +1,23 @@
+To answer this question, we simply took the procedure date as denoted in the assignment and calculated the variance
+ofthe scores.  Then to avoid any discrepancies in name, the resulting table was joined on the variance table.
 
+
+Code    Name                                                                    Variance
+-------------------------------------------------------------------------------------------------
+ED_1b   Median Time from ED Arrival to ED Departure for Admitted ED Patients    10669.468857662643
+ED_2b   Admit Decision Time to ED Departure Time for Admitted Patients          4216.137307970249
+OP_18b  Median Time from ED Arrival to ED Departure for Discharged ED Patients  1897.6453841927498
+OP_3b   Median Time to Transfer to Another Facility for 
+        Acute Coronary Intervention- Reporting Rate                             1338.3818473593667
+OP_31   Percentage of patients aged 18 years and older who had cataract 
+        surgery and had improvement in visual function achieved within 
+        90 days following the cataract surgery                                  856.5066174207448
+OP_29   Appropriate Follow-Up Interval for Normal Colonoscopy in 
+        Average Risk Patients                                                   600.6828853133703
+OP_2    Fibrinolytic Therapy Received Within 30 Minutes of ED Arrival           448.5524691358025
+OP_30   Colonoscopy Interval for Patients with a History of 
+        Adenomatous Polyps - Avoidance of Inappropriate Use                     372.0370657619346
+OP_23   Head CT or MRI Scan Results for Acute Ischemic Stroke or 
+        Hemorrhagic Stroke Patients who Received Head CT or MRI Scan 
+        Interpretation Within 45 minutes of ED Arrival                          353.87615784499036
+OP_21   Median Time to Pain Management for Long Bone Fracture                   341.3294231935494
