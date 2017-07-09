@@ -5,15 +5,15 @@ CREATE TABLE hospitalStateandRating AS
 	WHERE hospital_overall_rating <> "Not Available";
   
 
-DROP TABLE procedureScores
+DROP TABLE procedureScores;
 CREATE TABLE procedureScores AS
 	Select  hospital_name, state, measure_id, measure_name, CAST(score AS FLOAT)
-	FROM effective_care
+	FROM effective_care;
 
-DROP TABLE readmissionsScores
+DROP TABLE readmissionsScores;
 CREATE TABLE readmissionsScores AS
 	Select  hospital_name, state, measure_id, measure_name, CAST(score AS FLOAT)
-	FROM readmissions
+	FROM readmissions;
   
 DROP TABLE measureCompact;
 CREATE TABLE measureCompact As
