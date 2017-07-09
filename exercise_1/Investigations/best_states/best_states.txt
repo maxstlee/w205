@@ -9,7 +9,7 @@ Even though we removed entries that did not have the scoring available, we belie
 this is a clean, generic method without introducing too much specificity.
 
 
- state   avg_rating
+ state | avg_rating
  --------------------------
  SD      3.857142857142857
  DE      3.6666666666666665
