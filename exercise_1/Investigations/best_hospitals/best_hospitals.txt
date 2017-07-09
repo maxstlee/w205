@@ -1,4 +1,7 @@
-To answere this question, we took a qucik composite of the available scores, averaged by hospital, and scaled with a min-max to avoid any bias in weight.  We then create a total composite sum and used that as a means of determining the best hospital.  We felt this was fair given the diversity of operations, resources, and cases that affect outcomes.  
+To answere this question, we took a qucik composite of the available scores, 
+averaged by hospital, and scaled with a min-max to avoid any bias in weight.  
+We then create a total composite sum and used that as a means of determining the best hospital.  
+We felt this was fair given the diversity of operations, resources, and cases that affect outcomes.  
 
 
                                     hosp    readmissions            procedures               composite
