@@ -1,4 +1,6 @@
 Using the overall score from the hospitals entity, we find that the correlation with the survey base score
 is 0.445.  We find that this is a good base way of measuring the base correlaton without introducing too 
 much variability.  However, we might note that instead of using a categorical rating from 1-5, we instead want 
-to use our composite, created earlier, for a more accurate reading.  
+to use our composite, created earlier, for a more accurate reading.  However, this still yields a correlation
+coefficient of 0.415, which is similar.  The consistency is positive for both our correlation reading as well
+as our construction of a composite score for hospitals.  
